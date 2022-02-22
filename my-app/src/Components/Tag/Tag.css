@@ -1,42 +1,30 @@
-.tag{
-    font-size: 10px;
-    line-height: 10px;
-    letter-spacing: -2%;
-    border: solid;
-    height: 34px;
-    width: 20px;
-    border-radius: 2px;
-    padding: 5px, 4px;
-    
-
+.Tag {
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: -2%;
+  border: solid;
+  height: 34px;
+  width: 20px;
+  border-radius: 2px;
+  padding: 5px, 4px;
 }
 
-.tag_todo{
-    background-color:#59B4D1 ;
-    color: #FFFFFF;
-    
-   
+.tag_todo {
+  background-color: #59b4d1;
+  color: #ffffff;
 }
 
-
-.tag_inprogress{
-    background-color:#D0935A ;
-    color:#FFFFFF;
-
+.tag_inprogress {
+  background-color: #d0935a;
+  color: #ffffff;
 }
 
-
-.tag_review{
-    background-color:#945AD1;
-    color: #FFFFFF;
-
+.tag_review {
+  background-color: #945ad1;
+  color: #ffffff;
 }
 
-
-.tag_done{
-    background-color:#59D090;
-    color: #FFFFFF;
-
+.tag_done {
+  background-color: #59d090;
+  color: #ffffff;
 }
-
-
