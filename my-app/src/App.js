@@ -11,6 +11,14 @@ function App() {
       </header>
       <body className="App-body">
         <img src={background} className="App-background" alt="background"></img>
+        <Tag ContainerCard="todo"></Tag>
+        <Tag ContainerCard="inprogress"></Tag>
+        <Tag ContainerCard="review"></Tag>
+        <Tag ContainerCard="done"></Tag>
+        <Text textContent="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ">
+          seu texto
+        </Text>
+        <Avatar descAlt="imagem mulher" />;
       </body>
     </div>
   );
