@@ -2,16 +2,16 @@ import "./internCard.css";
 import Avatar from "../Avatar/Avatar";
 import Tag from "../Tag/Tag";
 
-const internCard = (props) => {
-  const { img, tag, title } = props;
+const InternCard = (props) => {
+  const { img, tag, tagtxt, title, children } = props;
 
   return (
     <div className="intern-card-container">
-      <h2>${title}</h2>
+      <h2>{title}</h2>
       <Avatar img={img}></Avatar>
-      <Tag ContainerCard={tag}></Tag>
+      {children}
     </div>
   );
 };
 
-export default internCard;
+export default InternCard;

@@ -1,16 +1,13 @@
-import './Tag.css'
+import "./Tag.css";
 
-const Tag =(props)=>{
-    const {ContainerCard} = props;
+const Tag = (props) => {
+  const { ContainerCard, txt } = props;
 
-
-return (
+  return (
     <div>
-          <label className={`tag tag_${ContainerCard}`}> Texto Label</label>  
+      <label className={`tag tag_${ContainerCard}`}>{txt}</label>
     </div>
+  );
+};
 
-)}
-
-
-
-export default Tag
+export default Tag;
