@@ -5,9 +5,9 @@ const ExternCard = (props) => {
   // cardType -> todo, inprogress, review, done
 
   return (
-    <div className={`extern-card-${cardType}`}>
+    <div className={`box extern-card-${cardType}`}>
       <h2>{title}</h2>
-      {children}
+      <span class="description">{children}</span>
     </div>
   );
 };

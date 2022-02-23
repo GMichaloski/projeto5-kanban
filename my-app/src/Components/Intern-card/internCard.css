@@ -1,6 +1,7 @@
-.InternCard {
+/* .intern-card-container {
   height: 81px;
   width: 280px;
   border-radius: 2px;
   background-color: white;
-}
+  flex-direction: row;
+} */

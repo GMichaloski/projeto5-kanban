@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #e1e8ed;
   height: 100%;
+  display: flex;
 }
 
 .App-logo {
@@ -28,5 +29,6 @@
   margin-bottom: auto;
   padding-bottom: 10px;
 }
-.App-body {
-}
+/* .body {
+  flex-direction: row;
+} */

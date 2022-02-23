@@ -1,7 +1,23 @@
-.ExternCard {
-  min-width: 300px;
-}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
 
+  position: static;
+  width: 300px;
+  height: 221px;
+  left: 0px;
+  top: 5px;
+
+  gap: 10px;
+  padding: 10px 0 0 10px;
+
+  border-radius: 4px;
+}
+.description {
+  flex-direction: row;
+}
 .extern-card-todo {
   height: 221px;
   background-color: #59b4d1;
