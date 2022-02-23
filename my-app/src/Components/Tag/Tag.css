@@ -1,0 +1,30 @@
+.Tag {
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: -2%;
+  border: solid;
+  height: 34px;
+  width: 20px;
+  border-radius: 2px;
+  padding: 5px, 4px;
+}
+
+.tag_todo {
+  background-color: #59b4d1;
+  color: #ffffff;
+}
+
+.tag_inprogress {
+  background-color: #d0935a;
+  color: #ffffff;
+}
+
+.tag_review {
+  background-color: #945ad1;
+  color: #ffffff;
+}
+
+.tag_done {
+  background-color: #59d090;
+  color: #ffffff;
+}
