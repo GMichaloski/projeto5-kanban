@@ -1,6 +1,5 @@
 import "./internCard.css";
 import Avatar from "../Avatar/Avatar";
-import Tag from "../Tag/Tag";
 
 const InternCard = (props) => {
   const { img, title, children } = props;

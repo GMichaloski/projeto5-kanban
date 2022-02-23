@@ -17,6 +17,7 @@ function App() {
         </div>
       </header>
       <body className="App-body">
+        <img src={background} className="App-background" alt="background"></img>
         <ExternCard cardType="todo" title="🗒️ To Do">
           <InternCard img={male} title="Christmas Banners">
             <Tag ContainerCard="todo" txt="Label"></Tag>

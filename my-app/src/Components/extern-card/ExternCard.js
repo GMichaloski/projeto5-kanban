@@ -1,5 +1,4 @@
 import "./externCard.css";
-import InternCard from "../Intern-card/InternCard";
 
 const ExternCard = (props) => {
   const { cardType, title, children } = props;
@@ -7,7 +6,7 @@ const ExternCard = (props) => {
 
   return (
     <div className={`extern-card-${cardType}`}>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       {children}
     </div>
   );
