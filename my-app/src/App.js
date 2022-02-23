@@ -17,12 +17,42 @@ function App() {
         </div>
       </header>
       <body className="App-body">
-        <ExternCard cardType="todo">
-          <InternCard img={male} tag="todo" title="Christmas Banners">
+        <ExternCard cardType="todo" title="🗒️ To Do">
+          <InternCard img={male} title="Christmas Banners">
             <Tag ContainerCard="todo" txt="Label"></Tag>
           </InternCard>
-          <InternCard img={male} tag="todo" title="Redo Portfolio">
+          <InternCard img={male} title="Redo Portfolio">
             <Tag ContainerCard="todo" txt="Label"></Tag>
+          </InternCard>
+        </ExternCard>
+        <ExternCard cardType="inprogress" title="💻 In Progress">
+          <InternCard img={female} title="Coffee Break">
+            <Tag ContainerCard="inprogress" txt="Always"></Tag>
+          </InternCard>
+          <InternCard img={female} title="Updating Portfolio">
+            <Tag ContainerCard="inprogress" txt="Webflow"></Tag>
+          </InternCard>
+        </ExternCard>
+        <ExternCard cardType="review" title="🖍 Review">
+          <InternCard img={male} title="Release to Figma Community">
+            <Tag ContainerCard="review" txt="Release"></Tag>
+          </InternCard>
+          <InternCard img={male} title="User Feedback">
+            <Tag ContainerCard="review" txt="Feedback"></Tag>
+          </InternCard>
+          <InternCard img={male} title="Background images from humaaans.com">
+            <Tag ContainerCard="review" txt="Sourcing"></Tag>
+          </InternCard>
+        </ExternCard>
+        <ExternCard cardType="done" title="🚀 Done">
+          <InternCard img={female} title="Style Guide">
+            <Tag ContainerCard="done" txt="UI"></Tag>
+          </InternCard>
+          <InternCard img={female} title="Component Library">
+            <Tag ContainerCard="done" txt="UI"></Tag>
+          </InternCard>
+          <InternCard img={female} title="Sticker Components">
+            <Tag ContainerCard="done" txt="UI"></Tag>
           </InternCard>
         </ExternCard>
       </body>

@@ -3,11 +3,11 @@ import Avatar from "../Avatar/Avatar";
 import Tag from "../Tag/Tag";
 
 const InternCard = (props) => {
-  const { img, tag, tagtxt, title, children } = props;
+  const { img, title, children } = props;
 
   return (
     <div className="intern-card-container">
-      <h2>{title}</h2>
+      <h3>{title}</h3>
       <Avatar img={img}></Avatar>
       {children}
     </div>
