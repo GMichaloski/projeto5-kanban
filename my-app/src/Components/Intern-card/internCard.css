@@ -6,14 +6,24 @@
   flex-direction: row;
 } */
 
-
-.intern-card-container{
-  background-color: #FFFFFF;
+.intern-card-container {
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
   justify-content: left;
-  border-radius: 4px;
-  height: 81px;
+  border-radius: 2px;
+  height: 100px;
   width: 280px;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  
+  /* padding: 10px; */
+  margin: 5px 10px;
+}
+.h3 {
+  width: 100%;
+}
+.content {
+}
+.avatar {
+}
+
+.children {
 }
