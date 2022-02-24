@@ -1,7 +1,7 @@
 import background from "./assets/Home.png";
 import Tag from "./Components/Tag/Tag";
-import Avatar from "./Components/Avatar/Avatar";
-import Text from "./Components/Text/Text";
+/* import Avatar from "./Components/Avatar/Avatar";
+import Text from "./Components/Text/Text"; */
 import InternCard from "./Components/Intern-card/InternCard";
 import ExternCard from "./Components/extern-card/ExternCard";
 import female from "./Components/Avatar/images/Female.png";
@@ -30,7 +30,7 @@ function App() {
                   </ExternCard>
               </div>
 
-            <div class="App App-Inprogress">
+            <div class="App-Container inprogress">
               <ExternCard cardType="inprogress" title="💻 In Progress">
                 <InternCard img={female} title="Coffee Break">
                   <Tag ContainerCard="inprogress" txt="Always"></Tag>
