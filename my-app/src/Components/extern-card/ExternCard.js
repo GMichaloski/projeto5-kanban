@@ -6,8 +6,8 @@ const ExternCard = (props) => {
 
   return (
     <div className={`box extern-card-${cardType}`}>
-      <h2>{title}</h2>
-      <span class="description">{children}</span>
+      <h2 className="h2">{title}</h2>
+      {children}
     </div>
   );
 };
