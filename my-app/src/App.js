@@ -1,7 +1,7 @@
 import background from "./assets/Home.png";
 import Tag from "./Components/Tag/Tag";
-import Avatar from "./Components/Avatar/Avatar";
-import Text from "./Components/Text/Text";
+/* import Avatar from "./Components/Avatar/Avatar";
+import Text from "./Components/Text/Text"; */
 import InternCard from "./Components/Intern-card/InternCard";
 import ExternCard from "./Components/extern-card/ExternCard";
 import female from "./Components/Avatar/images/Female.png";
@@ -18,6 +18,7 @@ function App() {
             <h1>Kanban</h1>
           </div>
         </header>
+
 
         <main className="App App-Container">
           <div className="App Todo">

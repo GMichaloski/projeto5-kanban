@@ -1,19 +1,14 @@
 .box {
+  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 5px;
-
-  /* position: static; */
-
-  /* width: 300px;*/
-  width: auto;
-  height: 221px;
-
-  left: 0px;
-  top: 5px;
-
-  /* padding: 10px 0 0 10px; */
+    
+  /* width: 300px; */
+  width: 100%;
+  /* height: 221px; */
+  height: 100%;
+  padding: 10px;
 
   border-radius: 4px;
 }
@@ -22,12 +17,17 @@
 }
 .description {
   flex-direction: row;
+  line-height: 21px;
+  vertical-align: top;
+  text-align: left;
+    
 }
 
 .extern-card-todo {
   /* height: 221px; */
   background-color: #59b4d1;
   height: 100%;
+
 }
 .extern-card-inprogress {
   /*  height: 221px; */
@@ -42,5 +42,5 @@
 .extern-card-done {
   background-color: #59d090;
   height: 100%;
-  align-items: flex-start;
+  
 }

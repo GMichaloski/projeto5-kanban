@@ -1,29 +1,35 @@
-/* .intern-card-container {
+
+ .intern-card{
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+  background-color: #FFFFFF;
+  border-radius: 4px;
   height: 81px;
   width: 280px;
-  border-radius: 2px;
-  background-color: white;
-  flex-direction: row;
-} */
+   
+  
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  
 
-.intern-card-container {
+}
+
+.intern-card-title{
   display: flex;
-  align-items: flex-start;
-  background-color: #ffffff;
-  justify-content: left;
-  border-radius: 2px;
-  height: 100px;
-  width: 280px;
-  /* padding: 10px; */
-  margin: 5px 10px;
-}
-.h3 {
-  width: 100%;
-}
-.content {
-}
-.avatar {
+  
+
+
 }
 
-.children {
+.intern-card-status{
+  display: flex;
+  gap: 10px;  
+  
+    
 }
+
