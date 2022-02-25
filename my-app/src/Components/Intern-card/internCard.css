@@ -7,10 +7,11 @@
   
   background-color: #FFFFFF;
   border-radius: 4px;
-  height: 81px;
-  width: 280px;
-   
   
+  height: auto;
+  width: 280px;
+  border-style: outset;
+    
   padding-top: 10px;
   padding-right: 15px;
   padding-bottom: 10px;

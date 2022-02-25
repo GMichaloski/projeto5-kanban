@@ -3,44 +3,56 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-    
   /* width: 300px; */
   width: 100%;
   /* height: 221px; */
   height: 100%;
   padding: 10px;
-
   border-radius: 4px;
 }
 .h2 {
   padding-left: 10px;
+  align-self: flex-start;
+  line-height: 21px;
+  
 }
-.description {
-  flex-direction: row;
+
+.box.extern-card-elements{
+  flex-direction: column;
   line-height: 21px;
   vertical-align: top;
   text-align: left;
-    
+  
+  gap: 10px;
+  align-items: center;
 }
+
 
 .extern-card-todo {
   /* height: 221px; */
   background-color: #59b4d1;
   height: 100%;
+  align-items: center;
+  
+  
 
 }
 .extern-card-inprogress {
   /*  height: 221px; */
   background-color: #d0935a;
   height: 100%;
+  align-items: center;
 }
 .extern-card-review {
   /* height: 332px; */
   background-color: #945ad1;
   height: 100%;
+  align-items: center;
+  
 }
 .extern-card-done {
   background-color: #59d090;
   height: 100%;
+  align-items: center;
   
 }

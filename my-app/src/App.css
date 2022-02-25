@@ -11,22 +11,24 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-left: 60px;
+  margin-left: 30px;
   font-size: 38px;
   color: black;
   justify-content: center;
-  width: 80%;
+  width: 100%;
 }
 
 .App.App-Container{
    flex-direction: row;
    justify-content: space-around;
    gap: 35px;
+   margin-left: 70px;
+   
 }
 
-}
+
 .App-background {
-  position: absolute;
+  position: static;
   width: 1011px;
   height: 792px;
   left: 20%;
