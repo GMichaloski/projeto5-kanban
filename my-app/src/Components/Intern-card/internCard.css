@@ -1,35 +1,23 @@
-
- .intern-card{
+.intern-card {
   display: flex;
   flex-direction: column;
-  
-  
-  
-  background-color: #FFFFFF;
-  border-radius: 4px;
-  height: 81px;
+
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+  justify-content: left;
+  border-radius: 2px;
+  height: 100px;
   width: 280px;
-   
-  
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  
-
+  padding: 10px;
+  margin: 5px 10px;
 }
 
-.intern-card-title{
+.intern-card-title {
   display: flex;
-  
-
-
 }
 
-.intern-card-status{
+.intern-card-status {
   display: flex;
-  gap: 10px;  
-  
-    
+  gap: 10px;
 }
-

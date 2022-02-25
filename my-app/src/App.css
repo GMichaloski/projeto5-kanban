@@ -18,13 +18,12 @@
   width: 80%;
 }
 
-.App.App-Container{
-   flex-direction: row;
-   justify-content: space-around;
-   gap: 35px;
+.App.App-Container {
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 35px;
 }
 
-}
 .App-background {
   position: absolute;
   width: 1011px;
