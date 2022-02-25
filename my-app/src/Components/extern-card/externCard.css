@@ -12,6 +12,9 @@
 
   border-radius: 4px;
 }
+.h2 {
+  padding-left: 10px;
+}
 .description {
   flex-direction: row;
   line-height: 21px;
@@ -24,15 +27,12 @@
   /* height: 221px; */
   background-color: #59b4d1;
   height: 100%;
-  
-  
-  
+
 }
 .extern-card-inprogress {
- /*  height: 221px; */
+  /*  height: 221px; */
   background-color: #d0935a;
   height: 100%;
-  
 }
 .extern-card-review {
   /* height: 332px; */
